@@ -1,11 +1,6 @@
-import numpy as numpy
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask_restful import Resource,Api
-app = Flask(__name__)
-import sys
-import RPi.GPIO as GPIO 
+from app import app
+
+if __name__ == "__main__":  
+    app.run( debug =True, port=5000)
 
 
-print(sys.executable)
-print("0")
