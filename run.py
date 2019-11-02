@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Resource,Api
 app = Flask(__name__)
 import sys
+import RPi.GPIO as GPIO 
+
 
 print(sys.executable)
 print("0")

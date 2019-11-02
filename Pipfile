@@ -10,6 +10,7 @@ numpy = "*"
 flask = "*"
 flask-restful = "*"
 flask-sqlalchemy = "*"
+RPi-GPIO = "*"
 
 [requires]
 python_version = "3.7"
